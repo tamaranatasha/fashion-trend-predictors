@@ -179,9 +179,9 @@ The Random Forest model outperformed Logistic Regression across most evaluation 
 
 The strongest predictors of emerging fashion trends were growth rate, lagged popularity measures, and trend acceleration.
 
-A 5-fold Group Cross-Validation strategy was employed using trend names as grouping variables to prevent data leakage between observations of the same trend. 
-
-The Random Forest model with GroupKFold cross validation achieved a mean ROC-AUC of 0.78 (SD = 0.03), indicating consistent predictive performance across unseen fashion trends.
+### Random Forest Cross Validation
+* A 5-fold Group Cross-Validation strategy was employed using trend names as grouping variables to prevent data leakage between observations of the same trend. 
+* The Random Forest model with GroupKFold cross validation achieved a mean ROC-AUC of 0.78 (SD = 0.03), indicating consistent predictive performance across unseen fashion trends.
 
 ---
 
