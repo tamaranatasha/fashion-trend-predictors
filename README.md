@@ -13,7 +13,6 @@ The project follows a complete machine learning workflow including data collecti
 * Machine learning models successfully identified emerging fashion trends using historical search-interest data.
 * Trend momentum features such as growth rate and acceleration were among the strongest predictors of future trend growth.
 * Random Forest achieved the highest predictive performance and outperformed the Logistic Regression baseline.
-* 
 * The results demonstrate the potential of search-behaviour analytics for supporting fashion trend forecasting and merchandising decisions.
 
 ---
@@ -154,7 +153,7 @@ Additional evaluation techniques included:
 | F1 Score  | 0.13  |
 | ROC-AUC   | 0.71  |
 
-### Random Forest
+### Random Forest (RF)
 
 | Metric    | Score |
 | --------- | ----- |
@@ -163,6 +162,18 @@ Additional evaluation techniques included:
 | Recall    | 0.38  |
 | F1 Score  | 0.46  |
 | ROC-AUC   | 0.82  |
+
+### ROC Curve (RF)
+
+![ROC Curve](images/roc_curve.png)
+
+### Confusion Matrix (RF)
+
+![Confusion Matrix](images/confusion_matrix.png)
+
+### Feature Importance (RF)
+
+![Feature Importance](images/feature_importance.png)
 
 The Random Forest model outperformed Logistic Regression across most evaluation metrics, indicating that non-linear relationships between trend momentum features and future trend growth were present in the dataset.
 
